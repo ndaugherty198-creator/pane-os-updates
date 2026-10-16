@@ -1,0 +1,751 @@
+Package: pane-apps
+Version: 1.1
+Architecture: all
+Maintainer: Pane OS <noreply@localhost>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, btrfs-progs, systemd, pkexec | policykit-1, shared-mime-info
+Section: admin
+Priority: optional
+Description: Pane OS apps (.paneapp) and the app guard
+ Double-click a .paneapp file to install it with App Installer. Pane OS apps
+ get full access, and the app guard protects people from them: it snapshots
+ files before each run, stops an app that destroys many files and puts them
+ back, puts back system files an app changed when it closes, and can undo
+ everything an app changed. Includes pane-app (run, install, pack) and a
+ developer guide with a sample app.
+Filename: pool/main/pane-apps/pane-apps_1.1_all.deb
+Size: 26716
+MD5sum: 6ee74581406ed43351188487104cfb2f
+SHA1: 2a6044a3108527d50b1128634dcf74e568d82628
+SHA256: 61ca52929127a16e2210edecaa3710d487dd905b70307f3c8c87f6e84f8ce76f
+
+Package: pane-archive
+Version: 1.0
+Architecture: all
+Maintainer: Pane OS <noreply@localhost>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, libarchive-tools
+Conflicts: file-roller
+Replaces: file-roller
+Provides: file-roller
+Section: utils
+Priority: optional
+Description: Compressed folders for Pane OS
+ Windows 11-style compressed folders: archives open like a folder, the
+ Extract all wizard, and Compress to ZIP, 7z or TAR from File Explorer.
+ Reads zip, 7z, rar, tar.*, iso and cab (bsdtar); password-protected zips.
+ Replaces Archive Manager (file-roller).
+Filename: pool/main/pane-archive/pane-archive_1.0_all.deb
+Size: 15502
+MD5sum: e69edf6ed3db665de7218fdae311997e
+SHA1: ca6ed23e8a3c15cc42eaadbdf3a14875e09177ad
+SHA256: 2049eec22028672c37fe880cef73b164aa50d4a54532fd7f2dfea61f536aafed
+
+Package: pane-calculator
+Version: 1.0
+Architecture: all
+Maintainer: Pane OS <noreply@localhost>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Conflicts: gnome-calculator
+Replaces: gnome-calculator
+Section: math
+Priority: optional
+Description: Calculator for Pane OS
+ Windows 11 Calculator-style app: standard, scientific and programmer
+ calculators, date calculation, and converters for currency, volume, length,
+ weight, temperature, energy, area, speed, time, power, data, pressure and
+ angle, with history and memory. Replaces GNOME Calculator.
+Filename: pool/main/pane-calculator/pane-calculator_1.0_all.deb
+Size: 22558
+MD5sum: 6e61cc4d217be2c79382085a0fc2b4bf
+SHA1: 3c0b1296255b183a1c7e0ac82db401bea1646111
+SHA256: 6c96a7ae3cd8442a411ae2edfcbd65e90fb3884dc45f542fac73e9f09d08f557
+
+Package: pane-calendar
+Version: 1.0
+Architecture: all
+Maintainer: Pane OS <noreply@localhost>
+Depends: python3, python3-gi, python3-gi-cairo, gir1.2-gtk-4.0, gir1.2-adw-1, gir1.2-ecal-2.0, gir1.2-edataserver-1.2, evolution-data-server
+Conflicts: gnome-calendar
+Replaces: gnome-calendar
+Section: gnome
+Priority: optional
+Description: Calendar for Pane OS
+ Windows 11 Calendar-style app: day, work week, week, month and year views,
+ quick event creation, an event editor with repeat and reminders, drag to move,
+ calendars from online accounts, .ics import. Events live in Evolution Data
+ Server, so reminders pop up even when Calendar is closed. Replaces GNOME Calendar.
+Filename: pool/main/pane-calendar/pane-calendar_1.0_all.deb
+Size: 20056
+MD5sum: f9b81e575a13a3a1c3870f550d74853b
+SHA1: 86d6e1f8c29c283b99cf0619273436926de4e6fb
+SHA256: 9cbc0c4a1d4a03b7ef88376d29dc4a2287bd2634ea125c30cec185128ab90576
+
+Package: pane-camera
+Version: 1.0
+Architecture: all
+Maintainer: Pane OS <noreply@localhost>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, gir1.2-gstreamer-1.0, gir1.2-gst-plugins-base-1.0, gstreamer1.0-gtk4, gstreamer1.0-plugins-good, gstreamer1.0-pipewire
+Conflicts: gnome-snapshot
+Replaces: gnome-snapshot
+Section: video
+Priority: optional
+Description: Camera for Pane OS
+ Windows 11 Camera-style app: photos (JPEG) and videos (WebM) saved to
+ Pictures/Camera Roll. Replaces Snapshot.
+Filename: pool/main/pane-camera/pane-camera_1.0_all.deb
+Size: 7910
+MD5sum: 831f42f8430d22853757c16ce6683f4b
+SHA1: 2bacc837e5f127c79542f294441199f0152b3ab9
+SHA256: 49b2d278f7b800029e43ff9550a43af249251c121bb1a3c049205d1e9e8a2c85
+
+Package: pane-charmap
+Version: 1.0
+Architecture: all
+Maintainer: Pane OS <noreply@localhost>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, gir1.2-pango-1.0
+Recommends: unicode-data, fonts-noto-color-emoji
+Conflicts: gnome-characters
+Replaces: gnome-characters
+Provides: gnome-characters
+Section: utils
+Priority: optional
+Description: Character Map for Pane OS
+ Windows-style Character Map (every character a font has, Characters to
+ copy, search by name, Unicode subranges, Go to U+) and the Win+. emoji
+ panel (emoji with skin tones, kaomoji, symbols, search, recently used).
+ Replaces GNOME Characters.
+Filename: pool/main/pane-charmap/pane-charmap_1.0_all.deb
+Size: 13716
+MD5sum: d5879e967bb91f5df3f3a4f3ed873f6e
+SHA1: e9c4229882dbb769caf0c9bcf13ccc20988797ab
+SHA256: adb83c595c9f2e6441688be9f2fba1562540f7e832e2770a26cc10374994ab3f
+
+Package: pane-chess
+Version: 1.0
+Architecture: all
+Maintainer: Pane OS <noreply@localhost>
+Depends: python3, python3-gi, python3-gi-cairo, gir1.2-gtk-4.0, gir1.2-adw-1, gir1.2-pango-1.0, hoichess, fonts-noto-core
+Conflicts: gnome-chess
+Replaces: gnome-chess
+Provides: gnome-chess
+Section: games
+Priority: optional
+Description: Chess for Pane OS
+ Chess in the spirit of Chess Titans with a Windows 11 look: play the
+ computer (difficulty 1-10, HoiChess engine) or a friend on the same PC,
+ animated moves, legal-move hints, Undo and Hint, captured pieces, the move
+ list, three boards, statistics, and your unfinished game saved for next time.
+ Replaces GNOME Chess.
+Filename: pool/main/pane-chess/pane-chess_1.0_all.deb
+Size: 15558
+MD5sum: 07c5d4d9709721a5a09fb069e8033253
+SHA1: ce6fef07c6a2f25bb00e227b0c69086192e96fb5
+SHA256: a447c7570c0dead62793717e3096e847bd23571b0b48e63304a7bb7a9614c82f
+
+Package: pane-clocks
+Version: 1.1
+Architecture: all
+Maintainer: Pane OS <noreply@localhost>
+Depends: python3, python3-gi, python3-gi-cairo, gir1.2-gtk-4.0, gir1.2-adw-1, gir1.2-gstreamer-1.0, gir1.2-gweather-4.0, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, sound-theme-freedesktop
+Conflicts: gnome-clocks
+Replaces: gnome-clocks
+Section: utils
+Priority: optional
+Description: Clock for Pane OS
+ Windows 11 Clock-style app: focus sessions, timers, alarms, stopwatch and
+ world clock. Alarms and timers ring in the background. Replaces GNOME Clocks.
+Filename: pool/main/pane-clocks/pane-clocks_1.1_all.deb
+Size: 16850
+MD5sum: 171bd6244acd510d43c72d4c0ac7305c
+SHA1: ba153a5689641db4237dbda1287bfccc6bef9402
+SHA256: 9c59e0355733e4ac1ca891e2f692310a82fe8c7eb8661e79767d9f969f46bb97
+
+Package: pane-common
+Version: 1.0
+Architecture: all
+Maintainer: Pane OS <noreply@localhost>
+Depends: python3, python3-gi, gir1.2-gtk-4.0
+Section: python
+Priority: optional
+Description: Shared code for Pane OS apps
+ Windows 11-style right-click menus (icons, shortcuts, cascading submenus,
+ Cut/Copy/Rename/Delete toolbar) used by File Explorer, the desktop, Terminal,
+ Notepad, Photos and Mail.
+Filename: pool/main/pane-common/pane-common_1.0_all.deb
+Size: 6604
+MD5sum: 65d143286e052584794d7a409cda3a6c
+SHA1: f6778341439704a754f93aa22573bca6568af62d
+SHA256: f2d99ed93c9e6be77476336694fe89bc2f0cb723db620b5ca409831d37ec84ca
+
+Package: pane-control-panel
+Version: 1.2
+Architecture: all
+Maintainer: Pane OS <noreply@localhost>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, anduinos-control-panel
+Section: admin
+Priority: optional
+Description: Control Panel for Pane OS
+ The classic Windows Control Panel: category view, category pages with a left
+ pane, Large/Small icons, address bar and search, plus the Windows "control"
+ command. Items open Settings pages, apps, and AnduinOS's own tools (boot
+ settings, software sources, recovery, voice typing...), which stay installed.
+Filename: pool/main/pane-control-panel/pane-control-panel_1.2_all.deb
+Size: 14252
+MD5sum: 15d66ddb0b3914e9befcea758a4cb43f
+SHA1: fadd6e10599bcc3084b7756b16760cabf3a31a70
+SHA256: 79b4b281baa323935f92f24cab78bdcb06e9245db587ab63aef3fdb988707985
+
+Package: pane-credential-manager
+Version: 1.0
+Architecture: all
+Maintainer: Pane OS <noreply@localhost>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, gir1.2-secret-1, gnome-keyring, gnupg, openssh-client, pkexec | policykit-1
+Conflicts: seahorse
+Replaces: seahorse
+Provides: seahorse
+Section: utils
+Priority: optional
+Description: Credential Manager for Pane OS
+ The Windows Credential Manager: Web Credentials and Windows Credentials
+ (network, certificate-based and generic), add, edit, remove, back up and
+ restore, with your password asked before a saved password is shown; plus the
+ SSH and PGP keys Passwords and Keys managed. Replaces seahorse.
+Filename: pool/main/pane-credential-manager/pane-credential-manager_1.0_all.deb
+Size: 16642
+MD5sum: de64b9c5e29ae09b06d07b71e128d0db
+SHA1: 41cd227988b89e6ff8803f8a8d2f24b32547b1f3
+SHA256: 476729c6a3f91c77b312e0cda0f193fcc5a46ce66e9490bda796404afeb29a2c
+
+Package: pane-desktop
+Version: 1.5
+Architecture: all
+Maintainer: Pane OS <noreply@localhost>
+Depends: gnome-shell (>= 50), python3, python3-gi, gir1.2-gtk-4.0, pane-explorer (>= 1.9), pane-common
+Conflicts: gnome-shell-extension-desktop-icons-ng-anduinos, gnome-shell-extension-desktop-icons-ng
+Replaces: gnome-shell-extension-desktop-icons-ng-anduinos, gnome-shell-extension-desktop-icons-ng
+Section: gnome
+Priority: optional
+Description: Desktop icons for Pane OS
+ Windows 11-style desktop: Recycle Bin and the Desktop folder as icons you can
+ arrange, open, rename and delete; drag and drop and copy/paste with File
+ Explorer; View, Sort by and New menus. Replaces Desktop Icons NG.
+Filename: pool/main/pane-desktop/pane-desktop_1.5_all.deb
+Size: 17370
+MD5sum: 266a42035511717b9335d30ba1340f31
+SHA1: b3250ae5c10273cc42a6c0dbcca2629ae811fc2c
+SHA256: 0fb477def625fd477a943fb5f9870a445f68cdc8ecfe06f6680eeb8a37b3dd6a
+
+Package: pane-disk-usage
+Version: 1.0
+Architecture: all
+Maintainer: Pane OS <noreply@localhost>
+Depends: python3, python3-gi, python3-gi-cairo, gir1.2-gtk-4.0, gir1.2-adw-1
+Conflicts: baobab
+Replaces: baobab
+Section: utils
+Priority: optional
+Description: Disk Usage for Pane OS
+ Windows 11-style disk usage app: your drives and folders, a scan with an
+ address bar, a Storage-style breakdown by kind of file, a sortable list and
+ a treemap; open, show in File Explorer or move things to the Recycle Bin.
+ Replaces Disk Usage Analyzer (baobab).
+Filename: pool/main/pane-disk-usage/pane-disk-usage_1.0_all.deb
+Size: 15334
+MD5sum: c4dbd27c9406a97d83ef08e6ddd125ff
+SHA1: df516c7f595617deb598cf94da565717682a5e8e
+SHA256: bf42e341d5168b474b24b04d18816f8626e3ed19b4a4c02e38e688218df14cc7
+
+Package: pane-diskmgmt
+Version: 1.0
+Architecture: all
+Maintainer: Pane OS <noreply@localhost>
+Depends: python3, python3-gi, python3-gi-cairo, gir1.2-gtk-4.0, gir1.2-adw-1, gir1.2-udisks-2.0, udisks2, libblockdev-fs3, libblockdev-part3
+Recommends: exfatprogs, ntfs-3g, dosfstools, e2fsprogs, btrfs-progs
+Conflicts: gnome-disk-utility
+Replaces: gnome-disk-utility
+Provides: gnome-disk-utility
+Section: admin
+Priority: optional
+Description: Disk Management for Pane OS
+ Windows-style Disk Management (diskmgmt.msc): the volume list and every disk
+ drawn as a bar of its partitions; Initialize Disk, New Simple Volume, Format,
+ Extend, Shrink, Delete, Mount/Unmount and Change label; attach .iso/.img
+ disk images, write an image to a drive, and drive health (SMART / NVMe) with
+ a warning at sign-in. Replaces GNOME Disks (gnome-disk-utility).
+Filename: pool/main/pane-diskmgmt/pane-diskmgmt_1.0_all.deb
+Size: 17160
+MD5sum: 37c003de062fc1471d3bee8ceee48393
+SHA1: 87b34e2df62e13704b1c0f4d77b22a6748eed97f
+SHA256: 555bf86bd630f7373631703351885a7ef45da854a6aac1dc781eaadf96f475fb
+
+Package: pane-documents
+Version: 1.1
+Architecture: all
+Maintainer: Pane OS <noreply@localhost>
+Depends: python3, python3-gi, python3-gi-cairo, gir1.2-gtk-4.0, gir1.2-adw-1, gir1.2-poppler-0.18
+Conflicts: papers
+Replaces: papers
+Section: text
+Priority: optional
+Description: Document Viewer for Pane OS
+ PDF reader styled after the one in Windows 11: continuous pages, thumbnails and
+ contents, find, zoom and fit, two-page view, rotate, select and copy text, links,
+ highlight / draw / add text / erase saved into the PDF, print. Also opens comic
+ books (CBZ, CBT). Includes a thumbnailer for File Explorer. Replaces Papers.
+Filename: pool/main/pane-documents/pane-documents_1.1_all.deb
+Size: 23308
+MD5sum: 12bf28e33f6011ca33e45d21bdf3a3a8
+SHA1: 2dc7327630a7f0869b088ee0ce9d091a52dfcb8e
+SHA256: eedd09516536d94685e667d560b3ee436c669b4eb8e42dd217392e1129097949
+
+Package: pane-event-viewer
+Version: 1.0
+Architecture: all
+Maintainer: Pane OS <noreply@localhost>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, pane-common, systemd
+Conflicts: gnome-logs
+Replaces: gnome-logs
+Provides: gnome-logs
+Section: admin
+Priority: optional
+Description: Event Viewer for Pane OS
+ The Windows Event Viewer: Custom Views, Windows Logs (Application, Security,
+ Setup, System) and Applications and Services Logs over the systemd journal and
+ apt history, with the event preview, Actions pane, Filter Current Log, Find,
+ Save All Events As, Open Saved Log and the administrative events summary.
+ Replaces Logs (gnome-logs).
+Filename: pool/main/pane-event-viewer/pane-event-viewer_1.0_all.deb
+Size: 18870
+MD5sum: 06dc6accc48b08c2073ec9aecc2457b3
+SHA1: 106940b95f5a2998a834531fccb9b42f3dd9cb08
+SHA256: 1da048a5fd318886279b8f637b88764ffb4e5eb7dadf2439624b6d6fa2c2fcde
+
+Package: pane-explorer
+Version: 2.1
+Architecture: all
+Maintainer: Pane OS <noreply@localhost>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, xdg-desktop-portal-gtk, pane-common
+Provides: nautilus (= 1:99.0)
+Conflicts: nautilus
+Replaces: nautilus
+Section: utils
+Priority: optional
+Description: File Explorer for Pane OS
+ Windows 11-style file manager. Replaces Nautilus: opens folders, answers
+ "Show in folder" and desktop-icon file operations.
+Filename: pool/main/pane-explorer/pane-explorer_2.1_all.deb
+Size: 24166
+MD5sum: 84d187a83ab38ccbefe4ea95682da959
+SHA1: 3eea08a2f27befca674509e3952512fb30e47c97
+SHA256: 34596654dc1b57bfbede8a2a6e009d03b969bb6e6f7cb9f6cb39f8f546dfff5d
+
+Package: pane-get-help
+Version: 1.0.3
+Architecture: all
+Maintainer: Pane OS <noreply@localhost>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, man-db
+Recommends: wireplumber, bluez, cups-client, network-manager
+Conflicts: yelp, ubuntu-docs, gnome-user-docs
+Replaces: yelp, ubuntu-docs, gnome-user-docs
+Provides: yelp
+Section: doc
+Priority: optional
+Description: Get Help for Pane OS
+ The Windows 11 Get Help app: "Tell us about your problem" search over Pane OS
+ help articles, troubleshooters (Internet, Audio, Bluetooth, Printer, Storage,
+ Camera, Pane OS Update) that check your PC and offer fixes, and the help that
+ apps install (help: links, F1) and man pages. Replaces Help (yelp) and the
+ Ubuntu Desktop Guide.
+Filename: pool/main/pane-get-help/pane-get-help_1.0.3_all.deb
+Size: 33456
+MD5sum: 31e690f030a743ff135cf4ec8ca40015
+SHA1: 19ef78b5adc3b160c33c33c510a1477ddcc60626
+SHA256: e33ffd330cf0886d1465a28429c51e710529abb8e99e1a978cc85bdc087a394e
+
+Package: pane-get-started
+Version: 1.2
+Architecture: all
+Maintainer: Pane OS <noreply@localhost>
+Depends: python3, python3-gi, python3-gi-cairo, gir1.2-gtk-4.0, gir1.2-adw-1, gir1.2-nm-1.0, network-manager, ufw, flatpak, pkexec, anduinos-secureboot-toolkit, anduinos-driver-center
+Conflicts: anduinos-oobe
+Replaces: anduinos-oobe
+Provides: anduinos-oobe
+Section: utils
+Priority: optional
+Description: Get Started for Pane OS
+ Windows 11-style welcome app, shown once at the first sign-in after
+ installing and from Start any time after: light/dark mode and accent colour,
+ taskbar alignment, display scale, location, firewall and sleep, Secure Boot
+ driver signing, Driver Center, Bottles for Windows apps, recommended apps in
+ the Store, keyboard shortcuts and where to get help. Replaces AnduinOS
+ Welcome (anduinos-oobe).
+Filename: pool/main/pane-get-started/pane-get-started_1.2_all.deb
+Size: 43072
+MD5sum: 13312f9108142685ca0ded662f1ab06d
+SHA1: a742cc42611c2a8f1557eef62b48e4810fd1303b
+SHA256: b7d1525060a16425fc80ac4e7f53bfefc4e03590fb5e30bdcf626b899a21b5f3
+
+Package: pane-login
+Version: 1.0
+Architecture: all
+Maintainer: Pane OS <noreply@localhost>
+Depends: gnome-shell (>= 50), gdm3
+Section: gnome
+Priority: optional
+Description: Windows 11-style sign-in screen for Pane OS
+ The sign-in screen opens on the last user with a large picture and password
+ box; other users are listed in the bottom-left corner and network, sound and
+ power are in the bottom-right, like Windows 11.
+Filename: pool/main/pane-login/pane-login_1.0_all.deb
+Size: 987750
+MD5sum: a29de719ef69b8bc1445a924d7e57875
+SHA1: 3a4d6c244d4127b379bcbbfef06430056db00cd9
+SHA256: 0cb34ea06db72f4276bbeaa02e48cf82bd574540b0b7f849ecfea06aba9e5725
+
+Package: pane-mail
+Version: 1.1
+Architecture: all
+Maintainer: Pane OS <noreply@localhost>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, gir1.2-webkit-6.0, gir1.2-goa-1.0, gnome-online-accounts, pane-common
+Conflicts: geary
+Replaces: geary
+Section: mail
+Priority: optional
+Description: Mail for Pane OS
+ Windows 11 Mail-style email app: folders, message list and reading pane, push
+ mail (IMAP IDLE), compose with attachments, drafts, and new-mail notifications.
+ Accounts come from GNOME Online Accounts. Pictures from the internet are blocked
+ until you allow them. Replaces Geary.
+Filename: pool/main/pane-mail/pane-mail_1.1_all.deb
+Size: 25904
+MD5sum: dee98e380b47fdc4f2db5c36dcef50ed
+SHA1: 87c6d535bfebbbf28d48bbeb25a7921f5cca8847
+SHA256: ec92fc48fb74661bb6196e658ec6b2ea762dbf73ea40b080812ca9e1e920be7f
+
+Package: pane-media
+Version: 1.1
+Architecture: all
+Maintainer: Pane OS <noreply@localhost>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, gir1.2-gstreamer-1.0, gir1.2-gst-plugins-base-1.0, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav, gstreamer1.0-gtk4, ffmpegthumbnailer, python3-mutagen
+Conflicts: amberol, celluloid
+Replaces: amberol, celluloid
+Section: sound
+Priority: optional
+Description: Media Player for Pane OS
+ Windows 11 Media Player-style music app: a library of your music folders
+ (songs, albums, artists), playlists, a play queue that is kept between
+ sessions, gapless playback, a full-screen now playing view and media keys
+ (MPRIS). Videos: a video library with thumbnails, a full-window player with
+ auto-hiding controls, audio and subtitle tracks (and .srt files next to the
+ video), playback speed and resume. Replaces Amberol and Celluloid.
+Filename: pool/main/pane-media/pane-media_1.1_all.deb
+Size: 29346
+MD5sum: 6c9eef73fbcde14ab443c910e08e72bb
+SHA1: fdd2beb84757c18df810dd025ac13c8cd6f79ce8
+SHA256: f0772cc4dea9145c033727ea0057fa56a57c5066a1b5b4e2fd039e0f94d34a0c
+
+Package: pane-network-connections
+Version: 1.0
+Architecture: all
+Maintainer: Pane OS <noreply@localhost>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, gir1.2-nm-1.0, network-manager
+Recommends: iputils-ping
+Conflicts: nm-connection-editor, network-manager-gnome, network-manager-applet
+Replaces: nm-connection-editor, network-manager-gnome, network-manager-applet
+Provides: nm-connection-editor
+Section: net
+Priority: optional
+Description: Network Connections for Pane OS
+ Windows-style Network Connections (ncpa.cpl): every connection as a tile with
+ its network and adapter; Status with Details and bytes sent/received;
+ Properties with TCP/IPv4 and TCP/IPv6, the adapter's Configure sheet,
+ Wi-Fi security and the VPN plug-ins' own settings; Disable/Enable, Rename,
+ Create Copy, Delete and a network troubleshooter. Replaces nm-connection-editor
+ (Advanced Network Configuration) and nm-applet.
+Filename: pool/main/pane-network-connections/pane-network-connections_1.0_all.deb
+Size: 24862
+MD5sum: f66cc2d589fe796ee7eae12c71af5abf
+SHA1: 6754a38f08cb41e3a23adf785dcdd77394c81097
+SHA256: 1e4264225c60444583883804b00b6d8b5b7152896f21b6dd111affeb1402614f
+
+Package: pane-notepad
+Version: 1.2
+Architecture: all
+Maintainer: Pane OS <noreply@localhost>
+Depends: python3, python3-gi, python3-gi-cairo, gir1.2-gtk-4.0, gir1.2-adw-1, gir1.2-pango-1.0, fonts-cascadia-code, pane-common
+Conflicts: gnome-text-editor
+Replaces: gnome-text-editor
+Section: editors
+Priority: optional
+Description: Notepad for Pane OS
+ Windows 11 Notepad-style plain text editor: tabs, find and replace, go to
+ line, word wrap, zoom, printing, encodings and line endings kept, and
+ unsaved tabs restored next time. Replaces GNOME Text Editor.
+Filename: pool/main/pane-notepad/pane-notepad_1.2_all.deb
+Size: 14968
+MD5sum: b48f6e8094475be2e58ad50bc2053503
+SHA1: 3f44f8be2717ee791ba831f808bfaaf9fe28c975
+SHA256: 84510490bc133c953181ffe9d5793c2813299e88d1764afdf01aef9ac1ac72a8
+
+Package: pane-notify
+Version: 1.2
+Architecture: all
+Maintainer: Pane OS <noreply@localhost>
+Depends: gnome-shell (>= 50)
+Conflicts: gnome-shell-extension-noti-bottom-right
+Replaces: gnome-shell-extension-noti-bottom-right
+Section: gnome
+Priority: optional
+Description: Clock, notification center and toasts for Pane OS
+ Windows 11-style taskbar clock with a notification bell and unread count,
+ notification center grouped by app with Clear all and Do not disturb, calendar,
+ and toasts in the bottom-right corner with action buttons.
+Filename: pool/main/pane-notify/pane-notify_1.2_all.deb
+Size: 10332
+MD5sum: 57f3b2b502bfc75c07d8a076e150ff28
+SHA1: 3082da533249aee7d2ddb7404d78df45ad859b97
+SHA256: a73dea81dfe0edc03eb86ef019db490977ecc5566fbaa27d57bba6fda12d1791
+
+Package: pane-os
+Version: 1.0+20261015.0615
+Architecture: all
+Maintainer: Pane OS <noreply@localhost>
+Depends: pane-apps (>= 1.1), pane-common (>= 1.0), pane-desktop (>= 1.4), pane-explorer (>= 2.1), pane-login (>= 1.0), pane-notify (>= 1.2), pane-prompts (>= 1.4), pane-quick (>= 1.3), pane-search (>= 1.1), pane-settings (>= 1.11), pane-start (>= 1.6), pane-store (>= 1.4), pane-taskbar (>= 1.7), python3, diffutils
+Recommends: pane-archive (>= 1.0), pane-calculator (>= 1.0), pane-calendar (>= 1.0), pane-camera (>= 1.0), pane-charmap (>= 1.0), pane-chess (>= 1.0), pane-clocks (>= 1.1), pane-control-panel (>= 1.2), pane-credential-manager (>= 1.0), pane-diskmgmt (>= 1.0), pane-disk-usage (>= 1.0), pane-documents (>= 1.1), pane-event-viewer (>= 1.0), pane-get-help (>= 1.0.3), pane-get-started (>= 1.2), pane-mail (>= 1.1), pane-media (>= 1.1), pane-network-connections (>= 1.0), pane-notepad (>= 1.2), pane-photos (>= 1.2), pane-scan (>= 1.1), pane-task-manager (>= 1.0), pane-terminal (>= 1.2), pane-weather (>= 1.2)
+Section: metapackages
+Priority: optional
+Description: Pane OS
+ The Pane OS version (shown in Settings › System › About) and where Pane OS
+ Update gets new versions from. Updating this package brings new Pane OS
+ apps and features to the PC.
+Filename: pool/main/pane-os/pane-os_1.0+20261015.0615_all.deb
+Size: 16746
+MD5sum: 1e1a3c1f78e6dd527b4a55bf2c19577e
+SHA1: 394bde64f7dae2ebf2c385f604854d80ef4ed1cc
+SHA256: 5900eb0a5df8aeae10fd491a96d4371c29505b705df25cf4d0e0f6c4e1776ef3
+
+Package: pane-photos
+Version: 1.2
+Architecture: all
+Maintainer: Pane OS <noreply@localhost>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, gir1.2-gdkpixbuf-2.0, pane-common
+Conflicts: loupe
+Replaces: loupe
+Section: graphics
+Priority: optional
+Description: Photos for Pane OS
+ Windows 11 Photos-style image viewer: filmstrip, zoom and pan, rotate,
+ slideshow, file info. Replaces Loupe.
+Filename: pool/main/pane-photos/pane-photos_1.2_all.deb
+Size: 10252
+MD5sum: d010bdef0a18ebd371a6f8847da264fe
+SHA1: 5aa4afb00173f50c374575a84942f040c1a62603
+SHA256: f99b278a52ae1b09180a13bcfea0465d24b5faaf7e9ec4a554e4b9e852a68826
+
+Package: pane-prompts
+Version: 1.4
+Architecture: all
+Maintainer: Pane OS <noreply@localhost>
+Depends: gnome-shell (>= 50), gir1.2-polkit-1.0
+Section: gnome
+Priority: optional
+Description: Windows 11-style system prompts for Pane OS
+ Admin password prompts become a User Account Control dialog (the app, its
+ publisher, Show more details, Yes / No); keyring, Wi-Fi and drive password
+ prompts and the shut down / sign out dialogs get the Windows 11 dialog style.
+Filename: pool/main/pane-prompts/pane-prompts_1.4_all.deb
+Size: 6014
+MD5sum: 720b290bf22f9f96d80e4c2b92f47d83
+SHA1: 33ce0f06700fd501a2c01fc43c3e740676d7775a
+SHA256: 167297000dc4283bb7bffc6cbc21800e333c6bf11824c6f60cdbee9003a2bdf0
+
+Package: pane-quick
+Version: 1.3
+Architecture: all
+Maintainer: Pane OS <noreply@localhost>
+Depends: gnome-shell (>= 50), gir1.2-nm-1.0, gir1.2-gnomebluetooth-3.0, gir1.2-upowerglib-1.0
+Section: gnome
+Priority: optional
+Description: Quick settings for Pane OS
+ Windows 11-style quick settings flyout: Wi-Fi and Bluetooth with their device
+ lists, airplane mode, energy saver, night light, dark mode, do not disturb,
+ accessibility, brightness and volume with output choice, battery. Super+A.
+Filename: pool/main/pane-quick/pane-quick_1.3_all.deb
+Size: 11830
+MD5sum: 03f722033ac322ed65593b5c47d40cbc
+SHA1: 3a1517211f7acef80d2edea1c96412ee7bfe7a51
+SHA256: 569f6c45d1ebfdc0ba01efb82a5f14f185dbc296eaa7a80dcd73d19b25dfcc54
+
+Package: pane-scan
+Version: 1.1
+Architecture: all
+Maintainer: Pane OS <noreply@localhost>
+Depends: python3, python3-gi, python3-gi-cairo, gir1.2-gtk-4.0, gir1.2-adw-1, python3-pil, sane-utils, libsane1
+Recommends: sane-airscan, ipp-usb
+Conflicts: simple-scan
+Replaces: simple-scan
+Provides: simple-scan
+Section: graphics
+Priority: optional
+Description: Scan for Pane OS
+ The Windows Scan app: preview with a crop frame, scanner, source (flatbed or
+ document feeder), file type (JPEG, PNG, TIFF, Bitmap, PDF), color mode and
+ resolution; multi-page PDFs. Uses SANE (USB and network scanners via
+ sane-airscan). Replaces Document Scanner (simple-scan).
+Filename: pool/main/pane-scan/pane-scan_1.1_all.deb
+Size: 11700
+MD5sum: f30527598ce9820a8d4b0b4775e21911
+SHA1: a84c3ece844fdb9c3f59abe5dbbf20ebcb90afa2
+SHA256: 53fec728552b987b620e06c7b441dd4adf19123f35b4b974737452d8f9f0fd07
+
+Package: pane-search
+Version: 1.1
+Architecture: all
+Maintainer: Pane OS <noreply@localhost>
+Depends: gnome-shell (>= 50), findutils, network-manager
+Section: gnome
+Priority: optional
+Description: Search for Pane OS
+ The new Windows 11 Search ("K2"): a search box on the taskbar and a compact
+ panel for apps, files, Settings pages and maths, plus plain-language actions
+ ("open notepad and calculator" opens both snapped side by side, "turn on do
+ not disturb", "dark mode", "set volume to 30", "show desktop") with Undo.
+ Runs on this PC; web search only when you choose it. Super+S.
+Filename: pool/main/pane-search/pane-search_1.1_all.deb
+Size: 16304
+MD5sum: 402924d49d2878d1a1b8972597330bbc
+SHA1: e2c25bf7478e14974384517226bf3ea31bd8a574
+SHA256: cc3d933be42216b94e350631659f67e946b21f932f1c9133e948f40550ed94b0
+
+Package: pane-settings
+Version: 1.13
+Architecture: amd64
+Maintainer: Pane OS <noreply@localhost>
+Depends: python3, python3-gi, python3-gi-cairo, gir1.2-gtk-4.0, gir1.2-adw-1, gir1.2-nm-1.0, gir1.2-accountsservice-1.0, gir1.2-gnomedesktop-4.0, gir1.2-upowerglib-1.0, gir1.2-goa-1.0, gir1.2-ibus-1.0, accountsservice, gnome-control-center-data, gnome-online-accounts-gtk, openssl, libadwaita-1-0, libgtk-4-1
+Recommends: pane-store, language-selector-gnome, system-config-printer, pane-network-connections, power-profiles-daemon, cups-pk-helper
+Provides: gnome-control-center (= 1:99.0)
+Conflicts: gnome-control-center, gnome-shell-extension-prefs
+Replaces: gnome-control-center, gnome-shell-extension-prefs
+Section: gnome
+Priority: optional
+Description: Settings for Pane OS
+ Windows 11 Settings-style app: system, Bluetooth & devices, network, personalization,
+ apps, accounts, time & language, accessibility, privacy & security and updates.
+ Replaces GNOME Settings; "gnome-control-center PANEL" opens the matching page.
+Filename: pool/main/pane-settings/pane-settings_1.13_amd64.deb
+Size: 133892
+MD5sum: 5565b0fe0ada01b4c8997f5bd528295d
+SHA1: 9d873020751c99f9d7e1ec95fe17bf64ad703c3f
+SHA256: c4dc2f0276f04644f0a4017a3cd59b87fe12a1af3c7886932ae0213e93019f7f
+
+Package: pane-start
+Version: 1.6
+Architecture: all
+Maintainer: Pane OS <noreply@localhost>
+Depends: gnome-shell (>= 50)
+Conflicts: gnome-shell-extension-arcmenu
+Replaces: gnome-shell-extension-arcmenu
+Section: gnome
+Priority: optional
+Description: Start menu for Pane OS
+ Windows 11-style Start menu: search, pinned apps, all apps, recommended files,
+ account and power options. Opens with the Super key. Replaces ArcMenu.
+Filename: pool/main/pane-start/pane-start_1.6_all.deb
+Size: 16088
+MD5sum: 87e418ab500035afdaed279e7519fd0f
+SHA1: a11ebe8da9a845a44148b3e7da3f9cf8b68c94a8
+SHA256: 9e29e3dece986c5504a61ef72e1032a3a72f7129275cbcf97875fe5f57ee773c
+
+Package: pane-store
+Version: 1.4
+Architecture: all
+Maintainer: Pane OS <noreply@localhost>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, gir1.2-appstream-1.0, gir1.2-packagekitglib-1.0, packagekit, flatpak
+Provides: gnome-software (= 99.0)
+Conflicts: gnome-software
+Replaces: gnome-software
+Section: utils
+Priority: optional
+Description: Store for Pane OS
+ Microsoft Store-style app store showing Flatpaks (Flathub) and debs
+ (Ubuntu / AnduinOS repositories). Replaces GNOME Software.
+Filename: pool/main/pane-store/pane-store_1.4_all.deb
+Size: 15230
+MD5sum: b626373a12b8c9cec6d8bf4c8d0ea95c
+SHA1: 58361c7491bae5dfc5c05f7900e1bc1f748ac596
+SHA256: dfae008ae1b3282024a2ea498561e5e99fde147f8622c8f856f2cd860ad5c3e2
+
+Package: pane-task-manager
+Version: 1.0
+Architecture: all
+Maintainer: Pane OS <noreply@localhost>
+Depends: python3, python3-gi, python3-gi-cairo, gir1.2-gtk-4.0, gir1.2-adw-1, pane-common, iproute2, network-manager
+Conflicts: htop, resources
+Replaces: htop, resources
+Provides: htop, resources
+Section: admin
+Priority: optional
+Description: Task Manager for Pane OS
+ The Windows 11 Task Manager: Processes (apps, background and Pane OS
+ processes with heat-map CPU, memory and disk columns, End task, Efficiency
+ mode), Performance (CPU, memory, disks and network with 60-second graphs),
+ Startup apps, Users, Details and Services. Replaces htop and Resources.
+Filename: pool/main/pane-task-manager/pane-task-manager_1.0_all.deb
+Size: 27362
+MD5sum: c3c606bb0fb54f0d2c94ffc62b778cee
+SHA1: 3d0075cc2287f4269064e30eeaee3e95cf92f588
+SHA256: f75917eee8d74d77a5eb074408abc5759ad1fa59cdc67d6f19cfb2d99c793aaa
+
+Package: pane-taskbar
+Version: 1.7
+Architecture: all
+Maintainer: Pane OS <noreply@localhost>
+Depends: gnome-shell (>= 50), anduinos-appearance
+Conflicts: gnome-shell-extension-dash-to-panel-anduinos, gnome-shell-extension-dash-to-panel
+Replaces: gnome-shell-extension-dash-to-panel-anduinos, gnome-shell-extension-dash-to-panel
+Section: gnome
+Priority: optional
+Description: Taskbar for Pane OS
+ Windows 11-style taskbar: pinned and open apps with live window thumbnails,
+ jump lists, count badges and progress, drag to reorder, tray, clock and Show
+ desktop, auto-hide, on every display. Replaces Dash to Panel.
+Filename: pool/main/pane-taskbar/pane-taskbar_1.7_all.deb
+Size: 22158
+MD5sum: 8f9d3cc67875013a7651177e3730d72d
+SHA1: 3e370ed9cc2ad3314dc19548d3b9f92011ea5141
+SHA256: 62b67550ff5de68ae7dee59511e9bd721ddb157db4639b6e438b8be0e7f976d1
+
+Package: pane-terminal
+Version: 1.2
+Architecture: all
+Maintainer: Pane OS <noreply@localhost>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, gir1.2-vte-3.91, pane-common
+Conflicts: ptyxis
+Replaces: ptyxis
+Section: utils
+Priority: optional
+Description: Terminal for Pane OS
+ Windows Terminal-style terminal: tabs, split panes, Campbell colours,
+ Cascadia Code. Replaces Ptyxis.
+Filename: pool/main/pane-terminal/pane-terminal_1.2_all.deb
+Size: 9564
+MD5sum: 6bfa42554cabe25c6bafa74f117448fd
+SHA1: dedb965a1ceb02945d353c716e51d0fcbe09d68a
+SHA256: 479508097cba1b564202650362584d0843a9b812da597988521a3f5c87cf344f
+
+Package: pane-weather
+Version: 1.2
+Architecture: all
+Maintainer: Pane OS <noreply@localhost>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1
+Conflicts: gnome-weather
+Replaces: gnome-weather
+Section: utils
+Priority: optional
+Description: Weather for Pane OS
+ Windows 11 Weather-style app: current conditions, hourly and 10-day
+ forecast from Open-Meteo (no account needed). Replaces GNOME Weather.
+Filename: pool/main/pane-weather/pane-weather_1.2_all.deb
+Size: 10230
+MD5sum: 6627e8392d970eebce2ecdf18498fa7c
+SHA1: 86b8428c41a5ca0e4cb96a3a848ba15cfcd7918b
+SHA256: 9662ca86216fe3f02231b2fabbece725e0ae4d1c29903636e1f1dfb1ff6c568d

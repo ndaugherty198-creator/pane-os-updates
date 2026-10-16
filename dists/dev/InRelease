@@ -1,0 +1,27 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: Pane OS
+Label: Pane OS
+Suite: dev
+Codename: dev
+Date: Fri, 16 Oct 2026 01:05:11 GMT
+Architectures: amd64
+Components: main
+Description: Pane OS updates — Dev Channel
+MD5Sum:
+ 708f93d81243d4815248afabfdf1fb7e     32584 main/binary-amd64/Packages
+ d28f0fae0dc990b5a04c16b746ec743b     11319 main/binary-amd64/Packages.gz
+SHA1:
+ 1b50bab797202f08a1d2d305d588660cdf9d3d4f     32584 main/binary-amd64/Packages
+ 10ca84b7c1d79265a61c91a4caeadb1a9ff7a9b2     11319 main/binary-amd64/Packages.gz
+SHA256:
+ 37ea772a1854937bc0725cc538f5de22448eb505838ca42969c3e3fb58a5bc68     32584 main/binary-amd64/Packages
+ c279c800e508bfb6fe04062902f7ebe65a0bdbfe9c01f4d311914d2f538a32df     11319 main/binary-amd64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQRA7OK28fGtmu81HO+RRt6h+CrcSQUCatF4RwAKCRCRRt6h+Crc
+STeBAP0SCtF3JJOo4Mogqj3QVTT905cOI8KmLzEAA5rpiqJR5gEA05YBVBNQZkE7
+pNLsw+Tb6OVsfsZgMfrTs/qkmGcD+AE=
+=eerN
+-----END PGP SIGNATURE-----
